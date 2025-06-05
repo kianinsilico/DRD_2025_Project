@@ -2,8 +2,6 @@
 
 Welcome to the **DRD 2025 Project**! This guide will help you get started with Git, GitHub, and our R project structure — even if you've never used Git before.
 
-> 🧠 Target audience: Bioinformatics students at UNIBO with little/no Git experience
-
 ---
 
 ## ✅ 1. Clone the Repository (One-Time Setup)
