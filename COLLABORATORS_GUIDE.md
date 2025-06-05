@@ -27,7 +27,7 @@ This creates necessary folders like scripts/, data/, results/, etc.
 
     🔒 Only do this once — at the very beginning!
 
-##🌿 3. Branching Strategy & Naming Rules
+## 🌿 3. Branching Strategy & Naming Rules
 ❗ Never work directly on main, dev, or doc.
 
 Instead, follow this naming convention:
@@ -38,19 +38,19 @@ Instead, follow this naming convention:
 | Documentation    | `doc`       | `doc/setup-instructions`     |
 | Experiment/test  | `dev`       | `test/alternative-alignment` |
 
-##🧪 4. Start Working (Step-by-Step)
-###🔄 A. Sync with the base branch
+## 🧪 4. Start Working (Step-by-Step)
+### 🔄 A. Sync with the base branch
 ```bash
 git checkout dev          # or 'doc' if you're documenting
 git pull origin dev       # always pull latest changes
 ```
-###🌿 B. Create your branch
+### 🌿 B. Create your branch
 ```bash
 git checkout -b feature/your-branch-name
 Replace your-branch-name with something meaningful (e.g., feature/parse-uniprot-data).
 ```
 
-##💾 5. Save Your Work (Commit & Push)
+## 💾 5. Save Your Work (Commit & Push)
 After editing scripts or adding files:
 ```bash
 git add <file1> <file2> <...>
