@@ -20,6 +20,7 @@ git config --global user.email "your_email@example.com"
 ## 🧱 2. Set Up the Project Structure in R
 Once inside the project folder, open R or RStudio and run:
 ```R
+#first setwd() to the project directory
 source("00_setup_project_structure.R")
 ```
 This creates necessary folders like scripts/, data/, results/, etc.
