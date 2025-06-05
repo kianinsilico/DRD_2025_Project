@@ -14,6 +14,11 @@ First, get a local copy of the project:
 git clone https://github.com/kianinsilico/DRD_2025_Project.git
 cd DRD_2025_Project
 ```
+Configure your identity (global if it’s your machine, otherwise repo-level):
+```bash
+git config --global user.name "Your Full Name"
+git config --global user.email "your_email@example.com"
+```
 ## 🧱 2. Set Up the Project Structure in R
 Once inside the project folder, open R or RStudio and run:
 ```R
