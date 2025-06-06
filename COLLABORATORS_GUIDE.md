@@ -89,6 +89,7 @@ git checkout feature/your-branch-name
 git merge dev             # optional: update your branch
 ```
 🚫 What NOT to Do
+
 ❌ Don’t work on main, dev, or doc directly.
 
 ❌ Don’t upload raw .csv files, .pdf, or .RData without permission.
